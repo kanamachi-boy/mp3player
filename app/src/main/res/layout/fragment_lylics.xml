@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.banchan.mp3player.Lylics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:background="#1b1b1b"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1b1b1b"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/lyric_previous"
+                android:src="@drawable/ic_action_previous"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                />
+
+            <ImageButton
+                android:id="@+id/lyric_rw"
+                android:src="@drawable/ic_action_rewind"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                />
+
+            <ImageButton
+                android:id="@+id/lyric_pause"
+                android:src="@drawable/ic_action_pause"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                />
+
+            <ImageButton
+                android:id="@+id/lyric_ff"
+                android:src="@drawable/ic_action_fast_forward"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                />
+
+            <ImageButton
+                android:id="@+id/lyric_next"
+                android:src="@drawable/ic_action_next"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:id="@+id/lyric_loop"
+                android:src="@drawable/ic_action_repeat"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                />
+
+            <ImageButton
+                android:id="@+id/lyric_stop"
+                android:src="@drawable/ic_action_stop"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lyric_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            android:paddingLeft="8dp"
+            />
+
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/lyric_list"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#1b1b1b"
+            android:padding="8dp"
+            android:textColor="#dadacb"/>
+
+        <ScrollView
+            android:id="@+id/lyric_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1b1b1b"
+            >
+
+        <TextView
+            android:id="@+id/fgTxt"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#b4ffa1"
+            android:textSize="12sp"
+            ></TextView>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

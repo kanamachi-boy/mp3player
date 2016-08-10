@@ -1,0 +1,73 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.banchan.mp3player.MainActivity">
+<!--
+    <item
+        android:id="@+id/menu_previous"
+        android:orderInCategory="90"
+        android:icon="@drawable/ic_action_previous"
+        android:title="前の曲へ"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_next"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_next"
+        android:title="次の曲へ"
+        app:showAsAction="always" />
+-->
+    <!--
+    <item
+        android:id="@+id/menu_jump"
+        android:orderInCategory="103"
+        android:icon="@drawable/ic_action_jump"
+        android:title="数曲飛ばす"
+        app:showAsAction="ifRoom" />
+     -->
+<!--
+    <item
+        android:id="@+id/menu_stop"
+        android:orderInCategory="105"
+        android:icon="@drawable/ic_action_stop"
+        android:title="停止"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_sloop"
+        android:orderInCategory="107"
+        android:icon="@drawable/ic_action_repeat"
+        android:title="ループ"
+        android:checkable="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_con_svc"
+        android:orderInCategory="117"
+        android:title="次へ"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_con_test"
+        android:orderInCategory="118"
+        android:title="前へ"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_discon_svc"
+        android:orderInCategory="120"
+        android:title="Loop"
+        app:showAsAction="never" />
+-->
+    <item
+        android:id="@+id/menu_setting"
+        android:orderInCategory="190"
+        android:title="設定"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_end"
+        android:orderInCategory="200"
+        android:title="終了"
+        app:showAsAction="never" />
+</menu>
