@@ -1,12 +1,10 @@
 package com.example.banchan.mp3player;
 
 import android.app.ProgressDialog;
-import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.database.Cursor;
 import android.net.Uri;
